@@ -107,7 +107,22 @@
 }
  */
 
-h1 {
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0, 0.4))
+    url("/images/corfu-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+header h1 {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 550;
@@ -116,7 +131,7 @@ h1 {
   text-align: center;
 }
 
-h2 {
+header h2 {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -124,14 +139,11 @@ h2 {
   line-height: 10px;
   text-align: center;
 }
-h3 {
+header h3 {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 30px;
   line-height: 50px;
   text-align: center;
-}
-header{
-  
 }
