@@ -119,9 +119,24 @@ body {
   border-radius: 8px;
 }
 
+.grid-2-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.palace {
+  width: 90%;
+  height: 80%;
+  border-radius: 8px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
 section {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 50px 0;
 }
 
 header {
@@ -148,7 +163,7 @@ header h2 {
   margin: 0;
 }
 header h3 {
-  font-weight: 900;
+  font-weight: 800;
   font-size: 20px;
   line-height: 1.5;
   letter-spacing: 5px;
@@ -170,6 +185,39 @@ header a {
   border-radius: 10px;
 }
 
+main {
+  background-color: #e7f5fa;
+}
+
+main h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  letter-spacing: 5px;
+  color: #272044;
+  opacity: 0.4;
+  text-transform: uppercase;
+}
+
+main h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  color: #272044;
+  margin: 0;
+}
+
+main p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #272044;
+  opacity: 0.7;
+  margin-right: 50px;
+}
+
 footer {
   background-image: linear-gradient(
       rgba(39, 32, 68, 0.9),
@@ -179,7 +227,7 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  padding: 40px 20px; /* balanced spacing */
+  padding: 40px 20px;
 }
 
 footer h4 {
@@ -195,12 +243,12 @@ footer p {
   opacity: 0.7;
   line-height: 22px;
   margin: 0 0 10px 0;
-  max-width: 95%; /* prevents text hugging right edge */
+  max-width: 95%;
 }
 
 footer ul {
   margin: 0;
-  padding: 0; /* remove extra left padding */
+  padding: 0;
 }
 
 footer li {
@@ -227,7 +275,7 @@ footer .footer-grid {
   grid-gap: 40px;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 40px; /* inner padding for breathing room */
+  padding: 0 40px;
 }
 
 @media (max-width: 960px) {
@@ -252,14 +300,30 @@ footer .footer-grid {
     padding: 10px 20px;
     margin-top: 16px;
   }
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+
+  .palace {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+
+
+  section {
+    padding: 30px;
+  }
   footer {
     text-align: center;
-    padding: 40px 20px; /* keep side padding on mobile */
+    padding: 40px 20px;
   }
   footer .footer-grid {
     grid-template-columns: 1fr;
     text-align: center;
-    padding: 0 20px; /* prevent text from touching screen edges */
+    padding: 0 20px;
   }
   footer p {
     margin: 20px 0 0 0;
