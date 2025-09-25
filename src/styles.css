@@ -109,12 +109,14 @@
 body {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
+  background-color: #053955;
 }
 .container {
   max-width: 1400px;
   margin: 0 auto;
   padding: 20px;
   background: #d1edf7;
+  border-radius: 8px;
 }
 
 header {
