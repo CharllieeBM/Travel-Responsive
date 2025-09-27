@@ -46,8 +46,8 @@ body {
   padding: 30px;
 }
 
-.restaurant-header.grid{
-grid-gap:0;
+.restaurant-header.grid {
+  grid-gap: 0;
 }
 
 .btn {
@@ -68,41 +68,48 @@ grid-gap:0;
   border-radius: 10px;
 }
 
-section.gallery.grid{
-grid-gap:0;  
+section h2 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-.embed{
-  width:100%;
-  aspect-ratio:1/1;
+section h3 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
-.embedTwo{
-  width:100%;
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+.embedTwo {
+  width: 100%;
   border-radius: 8px;
-  aspect-ratio:1/1;
+  aspect-ratio: 1/1;
 }
 
 .pasta {
   width: 100%;
   height: 100%;
   border-radius: 8px;
-  display:block;
+  display: block;
 }
 
-.beach{
+.beach {
   width: 100%;
   height: 100%;
   border-radius: 8px;
   display: block;
-  
 }
 
-.town{
+.town {
   width: 100%;
   height: 100%;
-  display:block;
-  border-radius: 8px; 
+  display: block;
+  border-radius: 8px;
 }
 
 section {
@@ -309,14 +316,14 @@ footer .footer-grid {
     grid-gap: 20px;
   }
 
-  .restaurant-header img{
-    display:none; 
+  .restaurant-header img {
+    display: none;
   }
 
-  .embed{
-    aspect-ratio:16/9;  
+  .embed {
+    aspect-ratio: 16/9;
   }
-  
+
   .palace {
     width: 100%;
     height: 100%;
