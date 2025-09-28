@@ -311,6 +311,11 @@ footer .footer-grid {
     padding: 10px 20px;
     margin-top: 16px;
   }
+
+  .container {
+    padding: 0px;
+  }
+
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 20px;
