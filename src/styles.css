@@ -315,10 +315,10 @@ footer .footer-grid {
     grid-template-columns: 1fr;
     grid-gap: 20px;
   }
-.secondary{
-    margin:0 auto;
-    padding:0;
-}
+  .secondary {
+    margin: 0 auto;
+    padding: 0;
+  }
 
   .restaurant-header img {
     display: none;
